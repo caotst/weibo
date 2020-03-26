@@ -1,0 +1,16 @@
+# Query: App\\User
+
+5 个结果 - 4 文件
+
+app\Http\Controllers\Auth\RegisterController.php:
+  5: use App\Models\User;
+  62:      * @return \App\Models\User
+
+config\auth.php:
+  70:             'model' => App\Models\User::class,
+
+config\services.php:
+  34:         'model' => App\Models\User::class,
+
+database\factories\UserFactory.php:
+  17: $factory->define(App\Models\User::class, function (Faker $faker) {
